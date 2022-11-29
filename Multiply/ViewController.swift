@@ -22,7 +22,9 @@ class ViewController: UIViewController {
     @IBAction func showResultWhenPressed(_ sender: UIButton) {
         //MVP Here - Michael
         
-        
+        var product = Int(firstNumberTextField.text!)! * Int(secondNumberTextField.text!)!
+     
+        resultLabel.text = "\(product)"
         
         //Stretch 2 & 3- Jaden
         
