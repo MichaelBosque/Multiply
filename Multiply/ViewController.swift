@@ -49,7 +49,8 @@ class ViewController: UIViewController {
         
         //Stretch 4 - Michael
         
-        
+        firstNumberTextField.text = ""
+        secondNumberTextField.text = ""
     }
     
 }
