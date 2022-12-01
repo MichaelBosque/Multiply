@@ -33,8 +33,11 @@ class ViewController: UIViewController {
         
         //Stretch 1 - Michael
         
+        firstNumberTextField.resignFirstResponder()
+        secondNumberTextField.resignFirstResponder()
         
         //Stretch 4 - Michael
+        
         
     }
     
