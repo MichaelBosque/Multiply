@@ -29,7 +29,18 @@ class ViewController: UIViewController {
         //Stretch 2 & 3- Jaden
         
     
-        
+        if  product == 64 {
+            resultImage.image = UIImage(named: "mario") }
+
+        else if product % 2 == 0 {
+        // even number
+            resultImage.image = UIImage(named: "Monday")
+        }
+
+            else { // odd number
+                resultImage.image = UIImage(named: "classroom")
+                print ("Image")
+            }
         
         //Stretch 1 - Michael
         
